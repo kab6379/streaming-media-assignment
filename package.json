@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming media HW assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest" : "eslint ./src --fix",
+    "test": "echo \"Tests Complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kab6379/streaming-media-assignment.git"
+  },
+  "author": "Kevin Billotti",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/kab6379/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/kab6379/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
